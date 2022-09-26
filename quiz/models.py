@@ -35,7 +35,7 @@ class Question(models.Model):
   SCALE =(
     ("B", "beginner"),
     ("I", "intermediete"),
-    ("A", "Advanced"),
+    ("A", "advanced"),
   )
 
   title = models.TextField()
