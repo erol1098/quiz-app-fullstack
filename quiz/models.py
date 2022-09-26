@@ -52,7 +52,7 @@ class Question(models.Model):
 
 class Option(models.Model):
   option_text = models.CharField(max_length=255)
-  question = models.ForeignKey(Question, on_delete=models.CASCADE)
+  question = models.ForeignKey(Question,related_name="question_options", on_delete=models.CASCADE)
   is_right = models.BooleanField(default=False)
 
   def __str__(self):
