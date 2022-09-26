@@ -50,6 +50,7 @@ INSTALLED_APPS = [
 
     #third party
     'nested_admin',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
