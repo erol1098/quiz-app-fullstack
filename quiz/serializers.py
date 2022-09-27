@@ -1,5 +1,3 @@
-from dataclasses import fields
-from unicodedata import category
 from rest_framework import serializers
 from quiz.models import Category, Option, Question, Quiz
 
